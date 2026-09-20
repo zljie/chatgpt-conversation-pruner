@@ -1,4 +1,4 @@
-# ChatGPT Conversation Pruner / ChatGPT 长对话 Pruner
+# ChatGPT LoopChat / ChatGPT 循环对话助手
 
 English version below. 中文版本在下方。
 
@@ -6,24 +6,24 @@ English version below. 中文版本在下方。
 
 ## English
 
-A Tampermonkey userscript for chatgpt.com that reduces long-conversation rendering overhead and can automatically continue conversations by sending a series of prompts in sequence.
+A Tampermonkey userscript for chatgpt.com designed for loop-based chat workflows: repeating prompts, continuing multi-round tasks, and keeping long conversations manageable in the browser.
 
-> This project is a third-party userscript and is not affiliated with OpenAI. ChatGPT's page structure and internal APIs may change over time.
+> This project is a third-party userscript and is not affiliated with OpenAI. It is intended for browser-based repeat workflows and may need adjustments if ChatGPT changes its page structure or internal APIs.
 
 ### What it does
 
-- Helps manage very long chat sessions in the browser by reducing visible history and limiting unnecessary rendering work.
-- Allows users to define a list of prompts and run them in sequence for repeated multi-step tasks.
-- Keeps the workflow running from the web interface without constantly redoing manual input.
-- Shows a lightweight control panel for status tracking, stop/retry behavior, and repeated task execution.
-- Suitable for routine web-based workflows that need multiple rounds of reasoning or follow-up actions.
+- Helps manage long chat sessions in the browser by reducing visible history and limiting unnecessary rendering work.
+- Lets users define a list of prompts and run them in sequence for repeated multi-step or multi-round chat tasks.
+- Keeps the workflow running from the web interface without repeatedly re-entering the same instructions manually.
+- Shows a lightweight control panel for status tracking, stop/retry behavior, and repeated execution.
+- Suitable for routine browser-based workflows that need multiple rounds of follow-up, iteration, or summarization.
 
 ### Typical use cases
 
 - Repeated review or summarization of long chat history.
-- Multi-step prompts that need to be executed in order across several rounds.
-- Web-based task loops for drafting, refinement, prioritization, and follow-up actions.
-- Keeping a long conversation usable without manually resubmitting the same workflow multiple times.
+- Multi-step prompt loops that need to run in order across several rounds.
+- Browser-based task loops for drafting, refinement, prioritization, and follow-up actions.
+- Keeping a long conversation usable without manually resubmitting the same workflow repeatedly.
 
 ### Installation
 
@@ -108,14 +108,14 @@ This project is licensed under the [MIT License](./LICENSE).
 
 ## 中文
 
-这是一个运行在 chatgpt.com 上的 Tampermonkey 用户脚本，用于降低长对话场景下的页面渲染负担，并能够按提示词列表自动连续发送多轮对话。
+这是一个运行在 chatgpt.com 上的 Tampermonkey 用户脚本，面向“循环对话 / 多轮任务”场景，用于按提示词列表自动连续发送对话，并帮助管理长对话的浏览器体验。
 
 > 本项目是第三方用户脚本，与 OpenAI 无官方关联。ChatGPT 的页面结构和内部接口可能会发生变化。
 
 ### 它解决什么问题
 
 - 帮助在浏览器中处理超长对话，减少历史消息对页面性能的影响。
-- 允许用户按照顺序定义一组提示词，并让它们自动循环执行。
+- 允许用户按照顺序定义一组提示词，并让它们自动循环执行，实现循环对话/任务推进。
 - 让 Web 端的重复任务可以在同一会话中持续推进，而不是反复手动提交。
 - 提供轻量状态面板，用来跟踪执行进度、停止和重试行为。
 - 适合需要多轮重复思考、总结、改写和跟进的网页工作流场景。
@@ -123,7 +123,7 @@ This project is licensed under the [MIT License](./LICENSE).
 ### 主要使用场景
 
 - 对长对话内容进行反复梳理和总结。
-- 需要按顺序执行多步提示词的任务循环。
+- 需要按顺序执行多步提示词的循环任务。
 - 在 Web 端完成一组连续性的工作流，而无需手动反复输入。
 - 让长会话保持更可控的状态，方便持续推进任务。
 

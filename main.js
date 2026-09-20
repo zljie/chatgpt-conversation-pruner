@@ -1,11 +1,11 @@
 // ==UserScript==
-// @name         ChatGPT Conversation Pruner
-// @namespace    chatgpt-conversation-pruner
+// @name         ChatGPT LoopChat
+// @namespace    chatgpt-loopchat
 // @version      1.6
-// @description  Smooth long ChatGPT conversations and automate multi-round web workflows with a prompt loop.
+// @description  Loop ChatGPT in browser for multi-round workflows, repeat prompts, and long conversation management.
 // @match        https://chatgpt.com/*
-// @homepageURL  https://github.com/zljie/chatgpt-conversation-pruner
-// @supportURL   https://github.com/zljie/chatgpt-conversation-pruner/issues
+// @homepageURL  https://github.com/zljie/chatgpt-loopchat
+// @supportURL   https://github.com/zljie/chatgpt-loopchat/issues
 // @grant        none
 // @run-at       document-start
 // @license      MIT

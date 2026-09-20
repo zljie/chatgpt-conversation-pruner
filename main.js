@@ -9,8 +9,8 @@
 // @grant        none
 // @run-at       document-start
 // @license      MIT
-// @downloadURL https://update.greasyfork.org/scripts/559208/ChatGPT%20%E9%95%BF%E5%AF%B9%E8%AF%9D%E5%8D%A1%E9%A1%BF%E4%BC%98%E5%8C%96.user.js
-// @updateURL https://update.greasyfork.org/scripts/559208/ChatGPT%20%E9%95%BF%E5%AF%B9%E8%AF%9D%E5%8D%A1%E9%A1%BF%E4%BC%98%E5%8C%96.meta.js
+// @downloadURL https://greasyfork.org/zh-CN/scripts/596598-chatgpt-loopchat/code/ChatGPT%20LoopChat.user.js
+// @updateURL https://greasyfork.org/zh-CN/scripts/596598-chatgpt-loopchat/code/ChatGPT%20LoopChat.meta.js
 // ==/UserScript==
 
 (function () {

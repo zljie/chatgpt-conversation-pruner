@@ -1,12 +1,14 @@
 // ==UserScript==
-// @name         ChatGPT 长对话卡顿优化 + 计划任务循环
+// @name         ChatGPT Conversation Pruner
 // @namespace    chatgpt-conversation-pruner
-// @version      1.5
-// @description  chatgpt长对话卡顿优化，同时支持按照计划自动继续聊天，并在响应结束后继续等待下一轮。
+// @version      1.6
+// @description  Smooth long ChatGPT conversations and automate multi-round web workflows with a prompt loop.
 // @match        https://chatgpt.com/*
+// @homepageURL  https://github.com/zljie/chatgpt-conversation-pruner
+// @supportURL   https://github.com/zljie/chatgpt-conversation-pruner/issues
 // @grant        none
 // @run-at       document-start
-// @license       MIT
+// @license      MIT
 // @downloadURL https://update.greasyfork.org/scripts/559208/ChatGPT%20%E9%95%BF%E5%AF%B9%E8%AF%9D%E5%8D%A1%E9%A1%BF%E4%BC%98%E5%8C%96.user.js
 // @updateURL https://update.greasyfork.org/scripts/559208/ChatGPT%20%E9%95%BF%E5%AF%B9%E8%AF%9D%E5%8D%A1%E9%A1%BF%E4%BC%98%E5%8C%96.meta.js
 // ==/UserScript==
